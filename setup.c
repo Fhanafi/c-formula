@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "physics.c"
 #include "suhu.c"
+#include "c-calculat.c"
 
 void main() {
   int pilih;
