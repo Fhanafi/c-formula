@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int calculate() {
     char opt;
     int pertama,kedua;
     printf("pilih operator aritmatika (+,*,/,-) : ");
