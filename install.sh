@@ -3,7 +3,8 @@ clear
 RED='\033[0;33m'
 GRN='\033[0;32m'
 GRNBG='\033[0;35m'
-echo "${RED}=====> installing package <====="
+NRL='\033[0m'
+echo "${RED}=====> installing package <===== ${NRL}"
 sleep 3
 pkg install clang
 sleep 0.5
