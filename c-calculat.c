@@ -25,7 +25,7 @@ int calculate() {
         
         //jika salah memasukkan operator
         default:
-        printf("operator yang kamu masukan salah");
+        printf("\n operator yang kamu masukan salah");
     }
 }
 
