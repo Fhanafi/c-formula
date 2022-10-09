@@ -1,11 +1,11 @@
 #!/bin/bash
 clear 
-RED='\033[0;31m'
-GRN='\033[0;31m'
-GRNBG='\033[0;102m'
+RED='\033[0;33m'
+GRN='\033[0;32m'
+GRNBG='\033[0;35m'
 echo "${RED}=====> installing package <====="
 sleep 3
-pkg install linux
+pkg install t
 sleep 0.5
 echo "${GRN}=====> install finished <====="
 sleep 3
