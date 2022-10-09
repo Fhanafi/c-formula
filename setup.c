@@ -15,7 +15,7 @@ void main() {
       return setSuhu();
       break;
     case 3:
-      return calculate();
+      return pilihCalculat();
       break;
     default:
       printf("salah memasukan pilihan");
