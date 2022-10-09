@@ -5,7 +5,7 @@ GRNBG = '\033[0;102m'
 
 clear
 
-echo -e "${RED}=====> installing package <====="
+echo "${RED}=====> installing package <====="
 sleep 3
 pkg install clang
 sleep 0.5
