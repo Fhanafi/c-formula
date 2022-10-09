@@ -1,5 +1,5 @@
 # c-formula
-install for linux or termux 
+install for termux 
 
 > sh install.sh <br >
 > ./setup
