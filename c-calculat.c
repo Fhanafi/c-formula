@@ -28,3 +28,8 @@ int calculate() {
         printf("operator yang kamu masukan salah");
     }
 }
+
+
+void pilihCalculat() {
+  calculate();
+}
