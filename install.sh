@@ -1,10 +1,14 @@
 #!/bin/bash
+RED = '\033[0;31m'
+GRN = '\033[0;31m'
+GRNBG = '\033[0;102m'
 
 clear
-echo -e "\e[31m=====> installing package <====="
+
+echo -e "${RED}=====> installing package <====="
 sleep 3
 pkg install clang
 sleep 0.5
-echo "\e[92m=====> install finished <====="
+echo "${GRN}=====> install finished <====="
 sleep 3
-echo "\e[5m( ^ _ ^ ) now running ./setup"
+echo "${GRNBG}( ^ _ ^ ) now running ./setup"
