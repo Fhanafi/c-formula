@@ -7,23 +7,27 @@
 void cariCelcius()
 {
     int farenhet;
+    char hasil;
     printf("masukan nilai farenhet: ");
     scanf("%d", &farenhet);
+    hasil = (farenhet - celci1) * celci2 / celci3);
     if(!farenhet) {
         printf("Mohon isi dengan benar");
     } else {
-        printf("(%d Farenhet - %d) * %d / %d = %d Derajat Celcius", farenhet,celci1,celci2,celci3, (farenhet - celci1) * celci2 / celci3);
+        printf(" %d Derajat Celcius",hasil);
     }
 }
 
 void cariFarenhet() {
   int celcius;
+  char hasil;
   printf("Masukan nilai celcius: ");
   scanf("%d",&celcius);
+  hasil = (celcius * celci3 / celci2) + celci1);
   if(!celcius) {
     printf("Mohon isi dengan benar");
   } else {
-    printf("(%d Celcius * %d / %d) + %d = %d Farenhet",celcius,celci3,celci2,celci1, (celcius * celci3 / celci2) + celci1);
+    printf("%d Derajat Farenhet",hasil);
   }
 }
 
