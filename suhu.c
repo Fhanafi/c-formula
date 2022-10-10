@@ -12,9 +12,9 @@ void cariCelcius()
     scanf("%d", &farenhet);
     hasil = farenhet - celci1 * celci2 / celci3;
     if(!farenhet) {
-        printf("Mohon isi dengan benar");
+        printf("Mohon isi dengan benar \n");
     } else {
-        printf(" %d Derajat Celcius",hasil);
+        printf(" %d Derajat Celcius \n",hasil);
     }
 }
 
@@ -25,9 +25,9 @@ void cariFarenhet() {
   scanf("%d",&celcius);
   hasil = celcius * celci3 / celci2 + celci1;
   if(!celcius) {
-    printf("Mohon isi dengan benar");
+    printf("Mohon isi dengan benar \n");
   } else {
-    printf("%d Derajat Farenhet",hasil); 
+    printf("%d Derajat Farenhet \n",hasil); 
   }
 }
 
@@ -41,7 +41,7 @@ void pilihansuhu() {
   } else if(pilihan == 2) {
       return cariCelcius();
   } else {
-      printf("Salah Memasukkan Pilihan");
+      printf("Salah Memasukkan Pilihan \n");
   }
 }
 
