@@ -48,3 +48,7 @@ void pilihansuhu() {
 void setSuhu() {
     pilihansuhu();
 }
+
+
+
+//convert angka ke binner
