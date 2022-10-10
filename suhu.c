@@ -27,7 +27,7 @@ void cariFarenhet() {
   if(!celcius) {
     printf("Mohon isi dengan benar");
   } else {
-    printf("%d Derajat Farenhet",hasil);
+    printf("%d Derajat Farenhet",hasil); 
   }
 }
 
