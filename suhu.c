@@ -10,7 +10,7 @@ void cariCelcius()
     char hasil;
     printf("masukan nilai farenhet: ");
     scanf("%d", &farenhet);
-    hasil = (farenhet - celci1) * celci2 / celci3);
+    hasil = farenhet - celci1 * celci2 / celci3;
     if(!farenhet) {
         printf("Mohon isi dengan benar");
     } else {
@@ -23,7 +23,7 @@ void cariFarenhet() {
   char hasil;
   printf("Masukan nilai celcius: ");
   scanf("%d",&celcius);
-  hasil = (celcius * celci3 / celci2) + celci1);
+  hasil = celcius * celci3 / celci2 + celci1;
   if(!celcius) {
     printf("Mohon isi dengan benar");
   } else {
