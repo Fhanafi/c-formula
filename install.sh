@@ -7,6 +7,7 @@ NRL='\033[0m'
 echo "${RED}=====> installing package <===== ${NRL}"
 sleep 3
 pkg install clang
+pkg install mono
 sleep 0.5
 echo "${GRN}=====> install finished <====="
 sleep 3
